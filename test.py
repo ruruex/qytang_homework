@@ -1,4 +1,5 @@
-import os
+import re
 
-print(os.getenv("TESTPASS"))
-print("Hello World")
+txt = "The rain in Spain"
+x = re.search("^The.*Spain$", txt)
+print(x.group(0))
