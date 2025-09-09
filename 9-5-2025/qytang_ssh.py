@@ -12,6 +12,6 @@ def qytang_ssh(ip,username,password,port=22,cmd='ls'):
     return x
 
 if __name__ == '__main__':
-    output = qytang_ssh('10.128.1.90',username='admin',password='cisco123',cmd='show ip int b \r\n')
+    output = qytang_ssh('10.128.1.90',username='admin',password='xxx',cmd='show ip int b \r\n')
     print(output)
     print(repr(output))

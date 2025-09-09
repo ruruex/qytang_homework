@@ -5,7 +5,7 @@ import hashlib
 import time
 import os
 
-def qytang_getconfig(ip,username='admin',password='cisco123') -> str: 
+def qytang_getconfig(ip,username='admin',password='') -> str: 
     '''
     Get the configuration from the network device
     '''
